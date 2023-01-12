@@ -64,8 +64,8 @@ def transform_load():
 
     df = pd.read_sql("SELECT * FROM raw_data_people", engine_sas)
 
-    df_person = df[["index", "Nom", "Prenom", "Age", "Job", "Married"]]
-    df_location = df[["index", "Date_recensement", "Dep_naissance", "Region"]]
+    df_person = df[["id", "Nom", "Prenom", "Age", "Job", "Married"]]
+    df_location = df[["id", "Date_recensement", "Dep_naissance", "Region"]]
 
     df_person.to_sql('person', engine_dwh, if_exists='append')
     df_location.to_sql('location', engine_dwh, if_exists='append')
