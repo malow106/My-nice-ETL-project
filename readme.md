@@ -18,7 +18,7 @@ To use this application stack, follow these step :
 1. Clone github repo :
 
 ```bash
-git clone malow106/My-nice-ETL-project
+git clone https://github.com/malow106/My-nice-ETL-project
 ```
 2. cd into the airflow-py folder :
    
