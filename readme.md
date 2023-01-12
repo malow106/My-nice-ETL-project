@@ -18,12 +18,12 @@ To use this application stack, follow these step :
 1. Clone github repo :
 
 ```bash
-git clone malow106/airflow_py
+git clone malow106/My-nice-ETL-project
 ```
 2. cd into the airflow-py folder :
    
 ```bash
-cd airflow_py
+cd My-nice-ETL-project
 ```
 
 3. Intitialize Airflow docker backend containers (redis, postgresql)
