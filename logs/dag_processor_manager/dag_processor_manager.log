@@ -1,0 +1,128 @@
+[2023-01-11T07:50:17.416+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2023-01-11T07:50:17.418+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2023-01-11T07:50:17.420+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-01-11T07:50:17.422+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2023-01-11T07:50:17.450+0000] {manager.py:727} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-11T07:50:17.552+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_faker.py                              0           0
+/opt/airflow/dags/dag_postgres.py     36  0.05s             0           0
+/opt/airflow/dags/hello_world.py      35  0.06s             0           0
+================================================================================
+[2023-01-11T07:50:48.088+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_faker.py                              1           0  0.32s           2023-01-11T07:50:18
+/opt/airflow/dags/dag_postgres.py     66  0.00s             1           0  0.40s           2023-01-11T07:50:17
+/opt/airflow/dags/hello_world.py      65  0.01s             1           0  0.33s           2023-01-11T07:50:17
+================================================================================
+[2023-01-11T07:51:18.562+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_faker.py                              1           0  0.17s           2023-01-11T07:50:48
+/opt/airflow/dags/dag_postgres.py     96  0.00s             1           0  0.19s           2023-01-11T07:50:48
+/opt/airflow/dags/hello_world.py      95  0.01s             1           0  0.18s           2023-01-11T07:50:48
+================================================================================
+[2023-01-11T07:51:49.094+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_faker.py                              1           0  0.19s           2023-01-11T07:51:19
+/opt/airflow/dags/dag_postgres.py    117  0.00s             1           0  0.28s           2023-01-11T07:51:18
+/opt/airflow/dags/hello_world.py     116  0.01s             1           0  0.28s           2023-01-11T07:51:18
+================================================================================
+[2023-01-11T07:52:19.442+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_faker.py                              1           0  0.11s           2023-01-11T07:51:49
+/opt/airflow/dags/dag_postgres.py    146  0.01s             1           0  0.15s           2023-01-11T07:51:49
+/opt/airflow/dags/hello_world.py     145  0.01s             1           0  0.12s           2023-01-11T07:51:49
+================================================================================
+[2023-01-11T07:52:49.796+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_faker.py                              1           0  0.13s           2023-01-11T07:52:19
+/opt/airflow/dags/dag_postgres.py    176  0.01s             1           0  0.13s           2023-01-11T07:52:19
+/opt/airflow/dags/hello_world.py     175  0.01s             1           0  0.11s           2023-01-11T07:52:19
+================================================================================
+[2023-01-11T07:53:20.113+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_faker.py                              1           0  0.12s           2023-01-11T07:52:50
+/opt/airflow/dags/dag_postgres.py    205  0.01s             1           0  0.13s           2023-01-11T07:52:49
+/opt/airflow/dags/hello_world.py     204  0.01s             1           0  0.11s           2023-01-11T07:52:49
+================================================================================
+[2023-01-11T07:53:50.453+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_faker.py                              1           0  0.12s           2023-01-11T07:53:20
+/opt/airflow/dags/dag_postgres.py    235  0.01s             1           0  0.13s           2023-01-11T07:53:20
+/opt/airflow/dags/hello_world.py     234  0.01s             1           0  0.10s           2023-01-11T07:53:20
+================================================================================
+[2023-01-11T07:54:21.329+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_faker.py                              1           0  0.13s           2023-01-11T07:53:50
+/opt/airflow/dags/dag_postgres.py    265  0.00s             1           0  0.14s           2023-01-11T07:53:50
+/opt/airflow/dags/hello_world.py     264  0.01s             1           0  0.11s           2023-01-11T07:53:50
+================================================================================
+[2023-01-11T07:54:51.806+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_faker.py                              1           0  0.23s           2023-01-11T07:54:21
+/opt/airflow/dags/dag_postgres.py    286  0.01s             1           0  0.28s           2023-01-11T07:54:21
+/opt/airflow/dags/hello_world.py     285  0.02s             1           0  0.17s           2023-01-11T07:54:21
+================================================================================
+[2023-01-11T07:55:18.137+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2023-01-11T07:55:18.166+0000] {manager.py:727} INFO - There are 3 files in /opt/airflow/dags
+[2023-01-11T07:55:22.244+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_faker.py                              1           0  0.14s           2023-01-11T07:54:52
+/opt/airflow/dags/dag_postgres.py    315  0.01s             1           0  0.15s           2023-01-11T07:54:51
+/opt/airflow/dags/hello_world.py     314  0.02s             1           0  0.14s           2023-01-11T07:54:51
+================================================================================
+[2023-01-11T07:55:52.639+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_faker.py                              1           0  0.11s           2023-01-11T07:55:22
+/opt/airflow/dags/dag_postgres.py    346  0.01s             1           0  0.14s           2023-01-11T07:55:22
+/opt/airflow/dags/hello_world.py     345  0.01s             1           0  0.13s           2023-01-11T07:55:22
+================================================================================
+[2023-01-11T07:55:54.013+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
